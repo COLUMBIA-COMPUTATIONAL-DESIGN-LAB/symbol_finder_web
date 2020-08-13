@@ -1,7 +1,25 @@
+.roundNum{
+  /* background: black; */
+  border-radius: 50%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.use_case_wrap{
+  padding: 5px !important;
+}
+
 #about_container{
 	text-align: center;
 }
 
+.thumbnail {
+  height: 120px;
+}
+
+.thumbnail_image {
+  height: 10em;
+}
 /*#video_thumbnail{
 	width=560;
 	height="315" 
@@ -10,9 +28,33 @@
   font-weight: bold;
   padding-right: 10px;
 }
-@media (min-width: 600px) {
+@media (min-width: 500px) {
   #video_thumbnail {
     width: 720px;
+    height: 420px;
+  }
+
+  .thumbnail {
+    height: 200px;
+  }
+}
+@media (min-width: 1000px) {
+  #video_thumbnail {
+    width: 720px;
+    height: 420px;
+  }
+
+  .thumbnail {
+    height: 320px;
+  }
+}
+@media (min-width: 1500px) {
+  #video_thumbnail {
+    width: 720px;
+    height: 420px;
+  }
+
+  .thumbnail {
     height: 420px;
   }
 }
