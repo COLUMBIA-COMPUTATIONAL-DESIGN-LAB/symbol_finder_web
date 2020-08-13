@@ -25,7 +25,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
   <!-- Core theme CSS (includes Bootstrap)-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link href="css/styles.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/bootstrap_template.css" rel="stylesheet" />
 </head>
 
 <body id="page-top">
@@ -49,7 +50,7 @@
           <li class="nav-item mx-0 mx-lg-1"><a target="_blank"
               class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#video_container">Video Demo</a></li>
           <li class="nav-item mx-0 mx-lg-1"><a target="_blank"
-              class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#info_container">SF Tips</a>
+              class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#tips_container">SF Tips</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1"><a target="_blank"
               class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#github_container">Github
@@ -85,8 +86,12 @@
       <!-- About Section Heading-->
       <h2 class="page-section-heading text-center titleSection  robotoTypeface text-uppercase text-secondary mb-0">
         About</h2>
-      <p>Symbol Finder is ...</p>
-      <div class="col-lg-1 mr-auto"></div>
+
+<!-- <div class="col-lg-1 mr-auto"></div> -->
+<div class="col-lg-1 mr-auto"></div>
+      <p>Symbol Finder is a tool to help users brainstorm word & image associations for abstract concepts. 
+      </p>
+      
     </div>
     </div>
   </section>
@@ -103,6 +108,9 @@
         <div class="col-lg-2 mr-auto text-center "></div>
 
         <div class="col-lg-8 mr-auto text-center ">
+          <iframe id="video_thumbnail" src="https://www.youtube-nocookie.com/embed/5N22-DSmy3s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p>Check out our Symbol Finder demo here!
+          </p>
 
         </div>
         <div class="col-lg-2 mr-auto text-center "></div>
@@ -112,13 +120,34 @@
   </section>
 
   <!-- tips section-->
-  <section class="page-section mb-0 bg-primary text-white" id="info_container">
+  <section class="page-section mb-0 bg-primary text-white" id="tips_container">
     <div class="container">
       <!-- About Section Heading-->
+
       <h2 class="page-section-heading text-center titleSection  robotoTypeface text-uppercase text-secondary mb-0">
         Tips</h2>
-      <p>Symbol Finder is ...</p>
-      <div class="col-lg-1 mr-auto"></div>
+
+      <div class="row text-center">
+        <div class="col-4">
+          <h2>Choosing a Good Concept</h2>
+          <div>
+            Use an abstract concept, such as "knowledge" instead of "book."
+            A book is tangible, whereas knowledge is intangible.
+          </div>
+        </div>
+        <div class="col-4">
+          <h2> Number of Terms </h2>
+          <div>
+            Based on previous user studies, we recommend finding at least 20 terms for each concept. This will ensure a good variety of images for your concept!
+          </div>
+        </div>
+        <div class="col-4">
+          <h2> When to Use SF </h2>
+          <div>
+            Use SF for brainstorming associations, searching for a range of symbols, & designing images that combine multiple concepts.
+          </div>
+        </div>
+      </div>
     </div>
     </div>
   </section>
@@ -133,9 +162,16 @@
       <br>
       <div class="row">
         <div class="col-lg-2 mr-auto text-center "></div>
-
         <div class="col-lg-8 mr-auto text-center ">
-
+          <svg xmlns="http://www.w3.org/2000/svg" height="8vw" viewBox="0 0 1024 1024" fill="none">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z" transform="scale(64)" fill="#1B1F23"/>
+          </svg>
+          <br>
+          <a href="https://github.com/COLUMBIA-COMPUTATIONAL-DESIGN-LAB/symbol_finder_firestore">
+            <p>
+              Download Symbol Finder here!
+            </p>
+          </a>
         </div>
         <div class="col-lg-2 mr-auto text-center "></div>
       </div>
@@ -148,12 +184,163 @@
     <div class="container">
       <h2 class="page-section-heading text-center titleSection  robotoTypeface text-uppercase text-secondary mb-0">
         Contact</h2>
-      <div class="row">
-
-        <div class="col-lg-12 mr-auto text-center ">
-          <br>
-
+      <div class="row text-center">
+        <div class="col-sm-2">
         </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/lydia.jpg" alt="">
+            <h4>Lydia Chilton</h4>
+            <!-- <p class="text-muted">Principal Investigator</p> -->
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="mailto:chilton@cs.columbia.edu">
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/lydia-chilton-15495427/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+<!--               <li class="list-inline-item">
+                <a href="">
+                  <i class="fas fa-address-card"></i>
+                </a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/savvas.jpg" alt="">
+            <h4>Savvas Petridis</h4>
+            <!-- <p class="text-muted">PhD Student</p> -->
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="mailto:sdp2137@columbia.edu">
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/savvaspetridis/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+<!--               <li class="list-inline-item">
+                <a href="">
+                  <i class="fas fa-address-card"></i>
+                </a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-2">
+        </div>
+      </div>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/hector.jpg" alt="">
+              <h4>Hector Liang</h4>
+              <!-- <p class="text-muted">PhD Student</p> -->
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="mailto:hl3169@columbia.edu">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/hectorliang/">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+<!--                 <li class="list-inline-item">
+                  <a href="">
+                    <i class="fas fa-address-card"></i>
+                  </a>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/grace.jpg" alt="">
+              <h4>Grace He</h4>
+              <!-- <p class="text-muted">PhD Student</p> -->
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="mailto:gh2549@columbia.edu">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/grace-he-39125b160/">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+<!--                 <li class="list-inline-item">
+                  <a href="">
+                    <i class="fas fa-address-card"></i>
+                  </a>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/annie.jpg" alt="">
+              <h4>Annie Sui</h4>
+              <!-- <p class="text-muted">PhD Student</p> -->
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="mailto:aqs2104@columbia.edu">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/gotbreadou/">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+<!--                 <li class="list-inline-item">
+                  <a href="https://breadou-sui.github.io/">
+                    <i class="fas fa-address-card"></i>
+                  </a>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+<!--         <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/annie.jpg" alt="">
+            <h4>Annie Sui</h4>
+            <p class="text-muted">Co-President</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="mailto:aqs2104@columbia.edu">
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/gotbreadou/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://breadou-sui.github.io/">
+                  <i class="fas fa-address-card"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div> -->
+        <!-- <div class="col-lg-12 mr-auto text-center ">
+          <br>
+        </div> -->
       </div>
     </div>
   </section>

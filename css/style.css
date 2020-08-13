@@ -1,0 +1,15 @@
+#about_container{
+	text-align: center;
+}
+
+/*#video_thumbnail{
+	width=560;
+	height="315" 
+}*/
+
+@media (min-width: 600px) {
+  #video_thumbnail {
+    width: 720px;
+    height: 420px;
+  }
+}
