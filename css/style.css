@@ -5,6 +5,10 @@
   padding: 0 !important;
 }
 
+#emailUs{
+  color: white !important;
+}
+
 .use_case_wrap{
   padding: 5px !important;
 }
@@ -18,7 +22,13 @@
 }
 
 .thumbnail_image {
+  height: 15em;
+  box-shadow: 3px 3px 25px #022169;
+}
+
+.thumbnail_image_example {
   height: 10em;
+  box-shadow: 3px 3px 25px #022169;
 }
 /*#video_thumbnail{
 	width=560;
@@ -58,3 +68,4 @@
     height: 420px;
   }
 }
+
