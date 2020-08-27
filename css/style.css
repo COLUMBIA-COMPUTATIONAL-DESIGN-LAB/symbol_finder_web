@@ -9,6 +9,42 @@
   color: white !important;
 }
 
+.black-text{
+  color: black;
+}
+
+.padding-bottom{
+  padding-bottom: 1vh;
+}
+
+.padding-bottom-lg{
+  padding-bottom: 3vh;
+}
+
+.bold{
+  font-style: bold;
+}
+
+.very-large-font{
+  font-size: 5vh;
+}
+
+.large-font{
+  font-size: 3vh;
+}
+
+.medium-large-font{
+  font-size: 2.5vh;
+}
+
+.medium-font{
+  font-size: 2vh;
+}
+
+.italics{
+  font-style: italic;
+}
+
 .use_case_wrap{
   padding: 5px !important;
 }
