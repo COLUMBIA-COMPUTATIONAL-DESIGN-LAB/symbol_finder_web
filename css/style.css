@@ -5,6 +5,10 @@
   padding: 0 !important;
 }
 
+#panel_image{
+  padding-top: 20px;
+}
+
 #emailUs{
   color: white !important;
 }
@@ -68,4 +72,5 @@
     height: 420px;
   }
 }
+
 
