@@ -5,6 +5,24 @@
   padding: 0 !important;
 }
 
+.profile-img{
+  
+  border: #6cace4  2px solid;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+}
+
+.profile-name{
+  color: white;
+}
+
+.profile-name:hover{
+  color: #6cace4;
+}
+
 #panel_image{
   padding-top: 20px;
 }
